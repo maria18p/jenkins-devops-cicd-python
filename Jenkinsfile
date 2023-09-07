@@ -23,7 +23,7 @@ pipeline {
                 sh '''
                 cd myapp
                 python3 hello.py
-                python3 hello.py --name=sum
+                python3 hello.py --name=125
                 '''
             }
         }
